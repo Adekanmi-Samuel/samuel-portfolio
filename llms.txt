@@ -1,0 +1,27 @@
+# Samuel Adekanmi
+
+> AI Operations and Automation specialist based in Lagos, Nigeria. Builds AI systems that run in production: workflows, prompt systems, automation pipelines, and complete delivery through AI development environments.
+
+## Pages
+
+- [Home](https://samueladekanmi.com/): Hero, approach, capabilities, selected work, open roles, contact
+- [Work](https://samueladekanmi.com/work/): T World content system, automation pipelines, multi step agent workflows
+
+## Focus
+
+- AI workflow orchestration
+- Prompt and conversation design
+- Automation pipelines
+- AI tool implementation and rollout
+- Operational documentation
+- Content and media automation
+
+## Open to
+
+AI Operations Specialist, Automation Specialist, AI Implementation or Solutions Engineer, Technical Support Engineer for AI tools, Customer Success for AI SaaS, AI Content Producer
+
+## Contact
+
+- Email: adekanmisamuel08@gmail.com
+- Phone: +234 813 279 0068
+- LinkedIn: https://www.linkedin.com/in/samuel-adekanmi-37b931285

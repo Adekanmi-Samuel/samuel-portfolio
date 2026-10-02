@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work | Samuel Adekanmi</title>
+  <meta name="description" content="Selected AI Operations and Automation work by Samuel Adekanmi: T World content system, automation pipelines, and multi step agent workflows.">
+  <link rel="canonical" href="https://samueladekanmi.com/work/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Work | Samuel Adekanmi">
+  <meta property="og:description" content="Deployed AI operations work: content systems, pipelines, and agent workflows.">
+  <meta property="og:url" content="https://samueladekanmi.com/work/">
+  <meta property="og:image" content="https://samueladekanmi.com/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0B0B0C">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header is-solid">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Samuel Adekanmi</span>
+        <span class="brand-role">AI Operations</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <a href="/work/" aria-current="page">Work</a>
+        <a class="nav-cta" href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a><span>/</span>Work
+      </nav>
+    </div>
+
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Selected work</span>
+        <h1>Systems on record</h1>
+        <p class="lede">
+          Three deployments. Each one was built inside AI development environments, reviewed piece by piece, documented, and shipped.
+        </p>
+      </div>
+    </section>
+
+    <article class="case" id="t-world">
+      <div class="wrap case-grid">
+        <div class="case-copy">
+          <span class="eyebrow">01 / Content system</span>
+          <h2>T World Post Creator</h2>
+          <p class="lede">
+            An AI assisted content platform for a social product. Users enter a topic, get generated post content, receive media recommendations from their own file library, and publish when ready.
+          </p>
+          <dl class="case-details">
+            <div class="row">
+              <dt>Context</dt>
+              <dd>A technical assessment required a complete backend and frontend system for AI content creation, with documentation good enough for an engineering team to review.</dd>
+            </div>
+            <div class="row">
+              <dt>What I did</dt>
+              <dd>Directed the full build end to end. Defined the architecture, specified the API surface, reviewed every generated file, wrote the operational documentation, and deployed the result for review.</dd>
+            </div>
+            <div class="row">
+              <dt>System pieces</dt>
+              <dd>Post generation and regeneration, content improvement, hashtag suggestions, media recommendations with relevance scoring, asset picker, file moderation states, save and publish flow, structured logging.</dd>
+            </div>
+            <div class="row">
+              <dt>Tools</dt>
+              <dd>Node.js, Express, MongoDB, React, TypeScript, Tanstack Router, Zustand, OpenAI compatible API, Vercel deployment.</dd>
+            </div>
+            <div class="row">
+              <dt>Outcome</dt>
+              <dd>Working production deployment with architecture overview, model and cost analysis, production readiness notes, sample API responses, and 13 passing unit tests. Source shared as a public repository for technical review.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="case-visual">
+          <img
+            src="/images/work-content.jpg"
+            width="1200"
+            height="800"
+            alt="Team working through ideas on a whiteboard, representing the T World content system"
+            loading="lazy">
+          <div class="caption">
+            <span>Content system</span>
+            <span>Deployed</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case" id="automation">
+      <div class="wrap case-grid">
+        <div class="case-copy">
+          <span class="eyebrow">02 / Automation</span>
+          <h2>Content and ops pipelines</h2>
+          <p class="lede">
+            Repeated content and operational tasks that should run without a human doing the same thing every week. Built for what happens after the first demo.
+          </p>
+          <dl class="case-details">
+            <div class="row">
+              <dt>Context</dt>
+              <dd>Workflows for content generation, media processing, and research tasks that were slow, manual, and easy to forget.</dd>
+            </div>
+            <div class="row">
+              <dt>What I did</dt>
+              <dd>Designed the automation flow, connected AI tools and APIs, set up triggers and routing, added fallback behaviour when a model or service fails, and documented how to operate the pipeline.</dd>
+            </div>
+            <div class="row">
+              <dt>System pieces</dt>
+              <dd>Speech to text processing, text to media steps, API integrations, local model calls where cloud is not appropriate, logging for every run.</dd>
+            </div>
+            <div class="row">
+              <dt>Tools</dt>
+              <dd>Composio, MCP servers, Playwright, Ollama, Whisper, ffmpeg, moviepy.</dd>
+            </div>
+            <div class="row">
+              <dt>Outcome</dt>
+              <dd>Pipelines that handle content and operational tasks with minimal human intervention, and clear notes on what each stage does when something breaks.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="case-visual">
+          <img
+            src="/images/work-automation.jpg"
+            width="1200"
+            height="800"
+            alt="Glasses reflecting code on monitors, representing automation pipelines"
+            loading="lazy">
+          <div class="caption">
+            <span>Pipelines</span>
+            <span>Operational</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case" id="agents">
+      <div class="wrap case-grid">
+        <div class="case-copy">
+          <span class="eyebrow">03 / Agent systems</span>
+          <h2>Multi step agent workflows</h2>
+          <p class="lede">
+            Systems where an agent has a goal, uses tools, and completes work in several steps. A person sets the objective and reviews the result.
+          </p>
+          <dl class="case-details">
+            <div class="row">
+              <dt>Context</dt>
+              <dd>Tasks that need tool use, memory, and several connected steps, where a single prompt and a single response are not enough.</dd>
+            </div>
+            <div class="row">
+              <dt>What I did</dt>
+              <dd>Specified how agents should behave, which tools they can call, how failures should be handled, and where a human needs to approve before the system continues.</dd>
+            </div>
+            <div class="row">
+              <dt>System pieces</dt>
+              <dd>Agent orchestration, tool calling, MCP compatible tooling, semantic memory concepts, automated workflows with supervision points.</dd>
+            </div>
+            <div class="row">
+              <dt>Tools</dt>
+              <dd>MCP servers, Composio, Claude, Ollama, Python, JavaScript.</dd>
+            </div>
+            <div class="row">
+              <dt>Outcome</dt>
+              <dd>Agent workflows that can research, call tools, and complete multi step tasks, with a clear boundary between autonomous work and human review.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="case-visual">
+          <img
+            src="/images/work-agents.jpg"
+            width="1200"
+            height="1800"
+            alt="Abstract architecture curves representing multi step agent system structure"
+            loading="lazy">
+          <div class="caption">
+            <span>Agent workflows</span>
+            <span>Supervised</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="contact" id="contact" aria-labelledby="work-contact-title">
+      <div class="wrap">
+        <span class="eyebrow">Next step</span>
+        <h2 id="work-contact-title">Want this kind of work on your team?</h2>
+        <p class="lede">
+          Open to AI Operations, Automation, and AI Implementation roles, including remote positions for candidates in Nigeria.
+        </p>
+        <a class="btn btn-dark" href="mailto:adekanmisamuel08@gmail.com">Email Samuel</a>
+
+        <div class="contact-layout">
+          <div>
+            <p style="color: var(--invert-muted); font-size: 18px; max-width: 40ch;">
+              If the fit is right, we can move fast.
+            </p>
+          </div>
+          <div class="contact-details">
+            <a href="mailto:adekanmisamuel08@gmail.com">
+              <span class="k">Email</span>
+              <span>adekanmisamuel08@gmail.com</span>
+            </a>
+            <a href="tel:+2348132790068">
+              <span class="k">Phone</span>
+              <span>+234 813 279 0068</span>
+            </a>
+            <a href="https://www.linkedin.com/in/samuel-adekanmi-37b931285" rel="noopener noreferrer">
+              <span class="k">LinkedIn</span>
+              <span>linkedin.com/in/samuel-adekanmi-37b931285</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Samuel Adekanmi · AI Operations · Lagos</span>
+      <span>
+        <a href="/">Home</a>
+        <a href="/work/">Work</a>
+        <a href="/#contact">Contact</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
