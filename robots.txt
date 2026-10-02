@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://samueladekanmi.com/sitemap.xml
+Sitemap: https://adekanmi-samuel.github.io/samuel-portfolio/sitemap.xml

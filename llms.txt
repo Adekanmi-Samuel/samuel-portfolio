@@ -4,8 +4,8 @@
 
 ## Pages
 
-- [Home](https://samueladekanmi.com/): Hero, approach, capabilities, selected work, open roles, contact
-- [Work](https://samueladekanmi.com/work/): T World content system, automation pipelines, multi step agent workflows
+- [Home](https://adekanmi-samuel.github.io/samuel-portfolio/): Hero, approach, capabilities, selected work, open roles, contact
+- [Work](https://adekanmi-samuel.github.io/samuel-portfolio/work/): T World content system, automation pipelines, multi step agent workflows
 
 ## Focus
 
